@@ -1,0 +1,9 @@
+﻿{
+ 
+    "config.enable-automatic-eating.name": "Enable automatic eating",
+    "config.enable-automatic-eating.description": "Enable automatic drinking",
+
+    "config.enable-automatic-drinking.name": "Enable automatic eating",
+    "config.enable-automatic-drinking.description": "Enable automatic drinking"
+
+}

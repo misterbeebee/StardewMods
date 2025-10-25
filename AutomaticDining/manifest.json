@@ -1,0 +1,11 @@
+﻿{
+    "Name": "Automatic Dining",
+    "Author": "Pascalcula",
+    "Version": "%ProjectVersion%",
+    "MinimumApiVersion": "4.1.10",
+    "Description": "Automatically eat/drink when buff expires.",
+    "UniqueID": "Pascalcula.AutomaticDining",
+    "EntryDll": "AutomaticDining.dll",
+    "UpdateKeys__comment__": "TODO FIXME UpdateKeys",
+    "UpdateKeys": [ "Nexus:7500" ]
+}

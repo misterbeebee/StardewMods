@@ -581,7 +581,10 @@ internal class EditDataPatch : Patch
                     string? value = (string?)editor.GetEntry(key);
 
                     // set value
-                    editor.SetEntry(key, operation.Apply(value));
+                    if (value != null)
+                    {
+                        editor.SetEntry(key, operation.Apply(value));
+                    }
                 }
                 break;
 

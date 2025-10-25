@@ -20,6 +20,8 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = ".Common", "Common\.Common.s
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = ".Common.Patching", "Common.Patching\.Common.Patching.shproj", "{49C40E04-5A9F-47DA-8906-FA717816E772}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutomaticDining", "AutomaticDining\AutomaticDining.csproj", "{00000000-0000-0000-0000-123456789012}"
+EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automate", "Automate\Automate.csproj", "{4456349C-749D-430B-8295-D70D2B2D3649}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChestsAnywhere", "ChestsAnywhere\ChestsAnywhere.csproj", "{FCA458CF-D872-47B7-9048-403C56A20905}"
@@ -79,12 +81,22 @@ Global
 		Common\Common.projitems*{ef4f1a38-6601-4441-b7b1-e9c26b312192}*SharedItemsImports = 5
 		Common\Common.projitems*{f2c606b1-51d2-48f3-9cf7-2f8cd46daff9}*SharedItemsImports = 5
 		Common\Common.projitems*{fca458cf-d872-47b7-9048-403c56a20905}*SharedItemsImports = 5
+
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+
+
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+
+		{00000000-0000-0000-0000-123456789012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00000000-0000-0000-0000-123456789012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00000000-0000-0000-0000-123456789012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00000000-0000-0000-0000-123456789012}.Release|Any CPU.Build.0 = Release|Any CPU
+	
+
 		{4456349C-749D-430B-8295-D70D2B2D3649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4456349C-749D-430B-8295-D70D2B2D3649}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4456349C-749D-430B-8295-D70D2B2D3649}.Release|Any CPU.ActiveCfg = Release|Any CPU
